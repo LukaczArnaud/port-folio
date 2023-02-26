@@ -1,0 +1,1 @@
+$('.carrousel-container').slick();
