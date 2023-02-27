@@ -67,6 +67,7 @@ align-items: end;
 }
 .titre-formation{
     text-align: center;
+    color: var(--primary-color);
 } 
 .carrousel-container{
     width: 85%;
@@ -75,41 +76,46 @@ align-items: end;
   }
   .projet-container{
     height: 300px;
-
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 10px;
   }
-  /* .projet1{
-    background: url(../assets/Capture\ d’écran\ 2023-02-27\ à\ 16.25.22.png) center no-repeat;
-    background-size: cover;
-    
-  } */
-  .projet2{
-    background: url(../assets/2.jpg) center no-repeat;
-    background-size: cover; 
+  .title-card{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--primary-color);
   }
-  .projet3{
-    background: url(../assets/3.jpg) center no-repeat;
-    background-size: cover; 
-  }
-  .projet4{
-    background: url(../assets/4.jpeg) center no-repeat;
-    background-size: cover; 
-  }
-  .projet5{
-    background: url(../assets/5.jpg) center no-repeat;
-    background-size: cover;
-  }
-  .projet6{
-    background: url(../assets/6.jpg) center no-repeat;
-    background-size: cover;
-  }
-  .booki{
+.img-card{
     width: 100%;
-    max-height: 100%;
     object-fit: cover;
-
+    margin-top: 20px;
   }
-  .lien{
-    position: relative;
-    top: 18px;
-    left: 176px;
+  .projet1{
+      height: 300px;
+      border: 1px solid black;
+      background: url('../assets/html.jpg') center no-repeat;
+      background: cover;
+      background-size: 540px;
   }
+  .projet2{
+    height: 300px;
+    border: 1px solid black;
+}
+  .projet3{
+    height: 300px;
+    border: 1px solid black;
+}
+  .projet4{
+    height: 300px;
+    border: 1px solid black;
+}
+  .projet5{
+    height: 300px;
+    border: 1px solid black;
+}
+  .projet6{
+    height: 300px;
+    border: 1px solid black;
+    background-color:var(--background-color-card);
+}
