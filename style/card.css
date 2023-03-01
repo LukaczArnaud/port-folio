@@ -1,0 +1,43 @@
+.container-card {
+  height: 300px;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+.img-card {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+
+}
+.container-text {
+  height: 25%;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  border-radius: 0px 0px 20px 20px;
+  border-top: 1px solid black;
+
+}
+.card-title {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+.block-lien {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 90px;
+    margin: auto;}
+.lien {
+  text-decoration: none;
+  color: black;
+}
+.lien:hover{
+    margin-top: -3px;
+
+}
+.icone-lien {
+    font-size: 17px;
+}

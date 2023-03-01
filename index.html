@@ -1,63 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/slider.css">
-    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/card.css" />
+    <link rel="stylesheet" href="./style/header.css" />
 
     <link rel="shortcut icon" type="image/png" href="./assets/five-icone.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>arnaud lukacz</title>
 </head>
+
 <body>
     <header class="header-container">
         <section class="block-header">
-           <div class="container-logo">
-            <a href="/"><img src="./assets/logo.png" alt="logo arnaud lukacz" class="header-img"></a>
-            <p class="header-p">Arnaud Lukacz</p>
-           </div>
-           <div class="container-nav">
-            <a href="/" class="lien-nav">Accueil</a>
-            <a href="/" class="lien-nav">Contact</a>
-            
-           </div> 
+            <div class="container-logo">
+                <a href="./index.html"><img src="./assets/logo.png" alt="logo arnaud lukacz" class="header-img" /></a>
+                <p class="header-p">Arnaud Lukacz</p>
+            </div>
+            <div class="container-nav">
+                <a href="./index.html" class="lien-nav">Accueil</a>
+                <a href="./index.html" class="lien-nav">Contact</a>
+            </div>
         </section>
     </header>
     <main class="home-container">
         <section class="block-home">
             <h2 class="titre-formation">Projet WEB</h2>
-            <div class='slider'>
+            <div class="slider">
                 <div>
-                    <div style="display: flex;">
-                        <a href="https://arkaz34.github.io/projet_2/" target="_blank" class="img-div projet1" style="display: inline-block;">
-                            <img src="...." alt="" style="width: 100%; height: 100%; object-fit: cover;" />
-                        </a>
-                        <a href="https://arkaz34.github.io/projet_2/" target="_blank" class="img-div projet1" style="display: inline-block;">
-                            Mon super texte...
-                        </a>
+                    <div class="container-card">
+                        <img src="./assets/html.jpg" alt="html" class="img-card" />
+                        <div class="container-text">
+                            <h2 class="card-title">Transformez une maquette en site web</h2>
+                            <div class="block-lien">
+                                <a href="https://github.com/Arkaz34/projet_2" target="_blank" class="lien">
+                                    <i class="fa-brands fa-github icone-lien icone-lien"></i>
+                                </a>
+                                <a href="https://arkaz34.github.io/projet_2/" target="_blank" class="lien">
+                                    <i class="fa-solid fa-square-arrow-up-right icone-lien"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <a href="https://github.com/Arkaz34/projet_3_animation_css" target="_blank" class="img-div projet2"></a>
-                <a href="https://github.com/Arkaz34/projet_4_SEO" target="_blank" class="img-div projet3"></a>
-                <a href="https://github.com/Arkaz34/projet_5_JS" target="_blank" class="img-div projet4"></a>
-                <a href="https://github.com/Arkaz34/projet_6_backend" target="_blank" class="img-div projet5"></a>
-                <a href="https://github.com/Arkaz34/projet_7_CRA" target="_blank" class="img-div projet6"></a>
+                <div>
+                    <div class="container-card">
+                        <img src="./assets/css3.webp" alt="html" class="img-card" />
+                        <div class="container-text">
+                            <h2 class="card-title">Dynamisez une page web</h2>
+                            <div class="block-lien">
+                                <a href="https://github.com/Arkaz34/projet_3_animation_css" target="_blank" class="lien">
+                                    <i class="fa-brands fa-github icone-lien icone-lien"></i>
+                                </a>
+                                <a href="https://arkaz34.github.io/projet_3_animation_css/" target="_blank" class="lien">
+                                    <i class="fa-solid fa-square-arrow-up-right icone-lien"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-card">
+                        <img src="./assets/seo.jpg" alt="html" class="img-card" />
+                        <div class="container-text">
+                            <h2 class="card-title">Optimisez un site web existant</h2>
+                            <div class="block-lien">
+                                <a href="https://github.com/Arkaz34/projet_4_SEO" target="_blank" class="lien">
+                                    <i class="fa-brands fa-github icone-lien icone-lien"></i>
+                                </a>
+                                <a href="https://arkaz34.github.io/projet_4_SEO/" target="_blank" class="lien">
+                                    <i class="fa-solid fa-square-arrow-up-right icone-lien"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-card">
+                        <img src="./assets/java-script.jpg" alt="html" class="img-card" />
+                        <div class="container-text">
+                            <h2 class="card-title">Construisez un site e-commerce en JS</h2>
+                            <div class="block-lien">
+                                <a href="https://github.com/Arkaz34/projet_5_JS" target="_blank" class="lien">
+                                    <i class="fa-brands fa-github icone-lien icone-lien"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-card">
+                        <img src="./assets/back-end.jpg" alt="html" class="img-card" />
+                        <div class="container-text">
+                            <h2 class="card-title">Construisez une API sécurisée</h2>
+                            <div class="block-lien">
+                                <a href="https://github.com/Arkaz34/projet_6_backend" target="_blank" class="lien">
+                                    <i class="fa-brands fa-github icone-lien icone-lien"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="container-card">
+                        <img src="./assets/react.png" alt="html" class="img-card" />
+                        <div class="container-text">
+                            <h2 class="card-title">Créez une application web avec React</h2>
+                            <div class="block-lien">
+                                <a href="https://github.com/Arkaz34/projet_7_CRA" target="_blank" class="lien">
+                                    <i class="fa-brands fa-github icone-lien icone-lien"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-3.4.1.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./script.js"></script>
-    </body>
+</body>
+
 </html>

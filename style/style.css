@@ -6,28 +6,25 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .home-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: var(--primary-color);
 }
 .block-home{
-    width: 80%;
-    height: 420px;
-    background-color: var(--background-color-slick);
-    box-shadow: 0px 1px 12px 1px black;
+  width: 80%;
+  height: 420px;
+  background-color: var(--background-color-slick);
+  box-shadow: 0px 1px 12px 1px black;
 }
 .titre-formation{
     text-align: center;
     color: var(--primary-color);
 } 
-  .title-card{
-    font-size: 15px;
-    text-align: center;
-    margin-top: 20px;
-    color: var(--primary-color);
-    background-color: aqua;
-  }
+.slider {
+  width: 90%;
+  margin: 0 auto;
+}
