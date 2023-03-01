@@ -27,7 +27,6 @@
       font-size: 13px;
     }
 }
-
 .block-lien {
     display: flex;
     justify-content: space-around;
@@ -42,5 +41,5 @@
     margin-top: -3px;
 }
 .icone-lien {
-    font-size: 17px;
+    font-size: 20px;
 }

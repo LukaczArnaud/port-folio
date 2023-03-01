@@ -1,0 +1,15 @@
+.container-footer{
+    height: 175px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+.info-text{
+    margin: 0;
+}

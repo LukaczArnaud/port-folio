@@ -7,5 +7,12 @@ if (window.matchMedia("(min-width: 599px)").matches) {
   });
 } else {
   $('.slider').slick();
-
   }
+
+  // $('.slider').slick({
+  //   slidesToShow: 3,
+  //   slidesToScroll: 3,
+  //   autoplay: false,
+  //   autoplaySpeed: 3000,
+  // });
+  // $('.slider-query').slick();

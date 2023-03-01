@@ -2,7 +2,10 @@
     --primary-color:  #f4f4f4;
 }
 :root {
-    --background-color-slick: #5f9ea0;
+    --secondary-color: #52a8e675;
+}
+:root {
+    --background-color-slick: white;
 }
 :root {
     --background-color-nav:  #f91942;
