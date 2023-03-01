@@ -5,51 +5,6 @@ body {
 *{
   font-family: "Montserrat", sans-serif;
 }
-.header-container{
-    height: 100px;
-}
-.block-header{
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    padding-top: 12px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.container-logo{
-    display: flex;
-    align-items: end;
-}
-.header-img{
-    width: 65px;
-}
-.header-p{
-    margin-left: 10px;
-    font-weight: 100;
-    font-size: 18px;
-    margin-bottom: 4px;
-    color: var(--primary-color-texte);
-}
-.container-nav{
-display: flex;
-align-items: end;
-}
-.lien-nav{
-    top: 6px;
-    background: var(--primary-color);
-    padding: 4px 15px;
-    border-radius: 50px;
-    font-size: 15px;
-    transition: .3s;
-    color: var(--primary-color-texte);
-    text-decoration: none;
-    font-weight: 100;
-    margin-left: 20px;
-}
-.lien-nav:hover{
-    background-color: var(--background-color-nav);
-    color:#f4f4f4;
-}
 .home-container{
     display: flex;
     flex-direction: column;
@@ -60,7 +15,7 @@ align-items: end;
     background: var(--primary-color);
 }
 .block-home{
-    width: 85%;
+    width: 80%;
     height: 420px;
     background-color: var(--background-color-slick);
     box-shadow: 0px 1px 12px 1px black;
@@ -74,36 +29,5 @@ align-items: end;
     text-align: center;
     margin-top: 20px;
     color: var(--primary-color);
+    background-color: aqua;
   }
-  .slider{
-    width: 80%;
-    margin: 0 auto;
-  }
-  .img-div{
-    height: 300px;
-    margin: 0 15px;
-  }
-  .projet1{
-      background: url('../assets/html.jpg') center no-repeat;
-      background-size: cover;
-  }
-  .projet2{
-    background: url('../assets/css3.webp') center no-repeat;
-    background-size: cover;
-}
-  .projet3{
-    background: url('../assets/seo.jpg') center no-repeat;
-    background-size: cover;
-}
-  .projet4{
-    background: url('../assets/java-script.jpg') center no-repeat;
-    background-size: cover;
-}
-  .projet5{
-    background: url('../assets/back-end.jpg') center no-repeat;
-    background-size: cover;
-}
-  .projet6{
-    background: url('../assets/react.png') center no-repeat;
-    background-size: cover;
-}
