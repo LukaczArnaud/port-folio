@@ -1,7 +1,6 @@
 .header-container {
-    height: 95px;
+margin: auto;
 }
-
 .block-header {
     display: flex;
     justify-content: space-between;
@@ -9,6 +8,7 @@
     width: 85%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 10px;
 }
 @media (min-width:320px) and (max-width:599px){
     .block-header{
@@ -21,15 +21,15 @@
 }
 
 .header-img {
-    width: 105px;
+    width: 86px;
 }
 
 .header-p {
-    margin-left: 10px;
+    margin-left: 15px;
     font-weight: 100;
     font-size: 18px;
     color: var(--primary-color-texte);
-    margin-bottom: -2px;
+    margin-bottom: 0;
 }
 @media (min-width:320px) and (max-width:599px){
     .header-p{
@@ -56,7 +56,7 @@
     align-items: center;
 }
 .lien-nav:hover {
-    background-color: var(--secondary-color);
+    background-color: #c4dcf1;
     color: black;
     margin-top: -5px;
     box-shadow: 0px 5px 4px -1px black;  
