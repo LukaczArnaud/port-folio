@@ -1,15 +1,13 @@
 .container-footer{
-    height: 175px;
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .info{
-    margin-left: 50px;
-    text-decoration: none;
-    color: black;
+  margin-top: 35px;
+  background-color: var(--background-color-slick);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+.icone-footer{
+  margin-right: 10px;
 }
 .info-text{
-    margin: 0;
+  margin: 0;
 }
