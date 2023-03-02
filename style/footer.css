@@ -3,10 +3,23 @@
   background-color: var(--background-color-slick);
   height: 70px;
 }
+@media (min-width:320px) and (max-width:599px){
+  .container-footer{
+    margin-top: 20px;
+    }
+}
 .footer{
   display: flex;
-  justify-content: center;
+  justify-content: end;
+  margin-right: 95px;
 }
+@media (min-width:320px) and (max-width:599px){
+  .footer{
+  justify-content: center;
+  margin-right: 0;
+}
+}
+
 .icone-footer{
   margin-right: 10px;
 }
