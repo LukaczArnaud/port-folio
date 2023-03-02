@@ -15,6 +15,12 @@ body {
   padding-bottom: 50px;
   background-color: var(--primary-color);
 }
+@media (min-width:320px) and (max-width:599px){
+  .home-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+}
 .block-home{
   width: 80%;
   padding-bottom: 30px;

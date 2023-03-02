@@ -23,7 +23,6 @@ margin: auto;
 .header-img {
     width: 86px;
 }
-
 .header-p {
     margin-left: 15px;
     font-weight: 100;
@@ -33,14 +32,20 @@ margin: auto;
 }
 @media (min-width:320px) and (max-width:599px){
     .header-p{
-        font-size: 10px;
+        font-size: 12px;
+        margin-left: 5px;
     }
   }
 .container-nav {
     display: flex;
-    margin-bottom: -18px;
-
+    margin-bottom: -13px;
 }
+@media (min-width:320px) and (max-width:599px){
+    .container-nav{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+  }
 .lien-nav {
     top: 6px;
     background: var(--primary-color);

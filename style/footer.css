@@ -1,9 +1,11 @@
 .container-footer{
   margin-top: 35px;
   background-color: var(--background-color-slick);
+  height: 70px;
+}
+.footer{
   display: flex;
-  justify-content: flex-end;
-  padding-right: 60px;
+  justify-content: center;
 }
 .icone-footer{
   margin-right: 10px;
