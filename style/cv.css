@@ -1,6 +1,71 @@
-.text{
-    font-size: 100px;
+.block-cv{
+    width: 80%;
+    border: 1px solid black;
+
 }
+.block-cv-title{
+    display: flex;
+    justify-content: center;
+}
+.cv-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cv-photo-id{
+    width: 50px;
+}
+.block-cv-descriptif{
+    display: flex;
+    margin-bottom: 80px;
+    margin-left: 25px;
+}
+.container-cv-com{
+    width: 35%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.block-cv-com{
+    width: 70%;
+    margin-top: 25px;
+}
+.title-com{
+
+}
+.title-texte{
+
+}
+.container-cv-descriptif{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+.cv-descriptif{
+    width: 90%;
+}
+.descriptif-title{
+    border-bottom: 3px solid aqua;
+    margin-top: 0;
+}
+.block-descriptif{
+    display: flex;
+    justify-content: center;
+}
+.descriptif-date{
+    width: 20%;
+}
+.descriptif-texte{
+    width: 75%;
+}
+.liste-descriptif{
+
+}
+.bas-cv{
+    height: 60px;
+    background-color: aqua;
+}
+
 @media (min-width:320px) and (max-width:599px){
     .text{
 font-size: 70px;
