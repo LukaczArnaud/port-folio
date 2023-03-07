@@ -2,7 +2,7 @@
     --primary-background:  #f4f4f4;
 }
 :root {
-    --secondary-background: #c4dcf1;
+    --secondary-background: radial-gradient(circle, rgba(194,194,194,1) 0%, rgba(93,93,93,1) 100%);
 }
 :root {
     --primary-cv-background: #07a6ab;
