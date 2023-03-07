@@ -46,7 +46,7 @@
 .lien-nav:hover {
     background: var(--secondary-background);
     margin-top: -5px;
-    box-shadow: 0px 5px 4px -1px black;
+    box-shadow: 0px 4px 8px 0px black;
     color: var(--secondary-color-texte);
 }
   @media (min-width:320px) and (max-width:599px){
