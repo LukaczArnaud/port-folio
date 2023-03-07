@@ -1,7 +1,6 @@
 @import './variables.css';
 
 .container-footer{
-  background-color: var(--background-color-slick);
   height: 150px;
   display: flex;
   align-items: center;
@@ -28,6 +27,7 @@
     }
     .footer{
       margin-right: 0;
+      width: 290px;
       }
       .info-text{
         font-size: 10px;

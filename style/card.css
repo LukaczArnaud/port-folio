@@ -1,7 +1,7 @@
 @import './variables.css';
 
 .container-card {
-  height: 380px;
+  height: 400px;
   margin: 0 15px;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
 .container-text {
   height: 94px;
   text-decoration: none;
-  background-color: var(--primary-color);
+  background-color: var(--primary-background);
   border-radius: 0px 0px 20px 20px;
   border-top: 1px solid black;
 }
@@ -28,6 +28,7 @@
     display: flex;
     justify-content: space-around;
     height: 21px;
+    margin-top: 15px;
   }
 .icone-lien {
     font-size: 18px;
@@ -39,6 +40,12 @@
 }
 @media (min-width:320px) and (max-width:599px){
   .card-title{
-      font-size: 13px;
+      font-size: 11px;
+    }
+    .texte-lien{
+      font-size: 9px;
+    }
+    .container-card{
+      height: 320px;
     }
 }

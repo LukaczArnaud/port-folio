@@ -34,7 +34,7 @@
     justify-content: space-between;
 }
 .lien-nav {
-    background: var(--primary-color);
+    background: var(--primary-background);
     color: var(--primary-color-texte);
     padding: 4px 15px;
     border-radius: 50px;
@@ -45,7 +45,7 @@
     align-items: center;
 }
 .lien-nav:hover {
-    background-color: #c4dcf1;
+    background-color: var(--secondary-background);
     margin-top: -5px;
     box-shadow: 0px 5px 4px -1px black;  
 }
@@ -62,6 +62,7 @@
     .container-nav{
         margin-right: 10px;
         font-size: 12px;
+        width: 125px;
     }
     .lien-nav{
         font-size: 12px;

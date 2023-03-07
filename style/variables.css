@@ -1,24 +1,15 @@
 :root {
-    --primary-color:  #f4f4f4;
+    --primary-background:  #f4f4f4;
 }
 :root {
-    --secondary-color: #52a8e675;
+    --secondary-background: #c4dcf1;
 }
 :root {
-    --background-color-slick: white;
-}
-:root {
-    --background-color-nav:  #f91942;
-}
-:root {
-    --background-color-card: #e1effb;
+    --primary-cv-background: #07a6ab;
 }
 :root {
     --primary-color-texte:#353535;
 }
 :root {
-    --background-cv-primary: #07a6ab;
-}
-:root {
-    --color-primary-texte: white;
+    --secondary-color-texte: white;
 }
