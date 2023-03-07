@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/footer.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,43 +37,37 @@
     </header>
     <main class="home-container">
         <section class="block-cv">
-            <section class="block-cv-title">
-                <div class="cv-title">
-                    <div class="title-cv">
-                        <h2>ARNAUD LUKACZ</h2>
-                        <H3>DÉVELOPPEUR WEB</H3>
-                    </div>
-                    <img src="" alt="identitée" class="cv-photo-id">
+            <section class="block-title">
+                <div class="block-title-texte">
+                    <h2 class="title-texte1">ARNAUD LUKACZ</h2>
+                    <H3 class="title-texte2">DÉVELOPPEUR WEB</H3>
                 </div>
+                <img src="./assets/photo  identitée.jpg" alt="identitée" class="cv-photo-id">
             </section>
             <section class="block-cv-descriptif">
                 <section class="container-cv-com">
                     <div class="block-cv-com">
-                        <div>
+                        <div class="block-com">
                             <h3 class="title-com">Nom</h3>
                             <p class="title-texte">Arnaud Lukacz</p>
                         </div>
-                        <div>
+                        <div class="block-com">
                             <h3 class="title-com">Date de naissance</h3>
                             <p class="title-texte">Le 9 mai 1982 (40 ans)</p>
                         </div>
-                        <div>
+                        <div class="block-com">
                             <h3 class="title-com">Adresse</h3>
                             <p class="title-texte">140 avenue de la réglisse Résidence Néo, Appt A003 </br>34070 Montpellier</p>
                         </div>
-                        <div>
+                        <div class="block-com">
                             <h3 class="title-com">Téléphone</h3>
                             <p class="title-texte">06-46-03-36-56</p>
                         </div>
-                        <div>
+                        <div class="block-com">
                             <h3 class="title-com">E-mail</h3>
                             <p class="title-texte">arnaudvv@hotmail.fr</p>
                         </div>
-                        <div>
-                            <h3 class="title-com">E-mail</h3>
-                            <p class="title-texte">arnaudvv@hotmail.fr</p>
-                        </div>
-                        <div>
+                        <div class="block-com">
                             <h3 class="title-com">Permis</h3>
                             <p class="title-texte">B, A</p>
                         </div>
@@ -107,10 +105,10 @@
                         </div>
                         <h2 class="descriptif-title">DIVERS</h2>
                         <ul class="liste-descriptif">
-                            <li>Bricolage et travaux du batiment</li>
-                            <li>Sport : vélo (dirt), natation, paddle</li>
-                            <li>Balade à moto organisée</li>
-                            <li>Auto formation anglais</li>
+                            <li class="liste-texte">Bricolage et travaux du batiment</li>
+                            <li class="liste-texte">Sport : vélo (dirt), natation, paddle</li>
+                            <li class="liste-texte">Balade à moto organisée</li>
+                            <li class="liste-texte">Auto formation anglais</li>
                         </ul>
                     </div>
                 </section>
@@ -120,13 +118,13 @@
     </main>
     <footer  class="container-footer">
         <div class="footer">
-            <!-- <a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target="_blank" class="lien-nav">LinkdedIn</a> -->
             <a class="lien-nav">
-                <i class="fa-solid fa-mobile-screen-button"> : 06 46 03 36 56</i>
+                <i class="fa-solid fa-mobile-screen-button icone-footer"></i>
+                <p class="info-text">: 06 46 03 36 56</p>
             </a>
             <a href="mailto:arnaudvv@hotmail.fr" target="_blank" class="lien-nav">
                 <i class="fa-solid fa-envelope icone-footer"></i>
-                <p class="info-text">arnaudvv@hotmail.fr</p>
+                <p class="info-text">: arnaudvv@hotmail.fr</p>
             </a>
         </div>
     </footer>    

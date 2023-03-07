@@ -14,5 +14,11 @@
     --background-color-card: #e1effb;
 }
 :root {
-    --primary-color-texte :#666;
+    --primary-color-texte:#353535;
+}
+:root {
+    --background-cv-primary: #07a6ab;
+}
+:root {
+    --color-primary-texte: white;
 }

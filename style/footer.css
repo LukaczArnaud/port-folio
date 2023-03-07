@@ -1,6 +1,6 @@
 .container-footer{
   background-color: var(--background-color-slick);
-  height: 90px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -10,7 +10,6 @@
     justify-content: center;
     }
 }
-
 .footer{
   display: flex;
   justify-content: end;
