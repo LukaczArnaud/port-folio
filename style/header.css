@@ -1,6 +1,8 @@
+@import './variables.css';
+
 .header-container {
     height: 120px;
-margin: auto;
+    margin: auto;
 }
 .block-header {
     display: flex;
@@ -10,11 +12,6 @@ margin: auto;
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
-}
-@media (min-width:320px) and (max-width:599px){
-    .block-header{
-        width: 100%;
-    }
 }
 .container-logo {
     display: flex;
@@ -30,33 +27,20 @@ margin: auto;
     color: var(--primary-color-texte);
     margin-bottom: 0;
 }
-@media (min-width:320px) and (max-width:599px){
-    .header-p{
-        font-size: 14px;
-        margin-left: 5px;
-        color: black;
-        font-weight: 600;
-    }
-  }
 .container-nav {
     display: flex;
     margin-bottom: -13px;
+    width: 145px;
+    justify-content: space-between;
 }
-@media (min-width:320px) and (max-width:599px){
-    .container-nav{
-        margin-right: 10px;
-        font-size: 12px;
-    }
-  }
 .lien-nav {
     background: var(--primary-color);
     color: var(--primary-color-texte);
     padding: 4px 15px;
     border-radius: 50px;
     font-size: 15px;
-    transition: .3s;
+    transition: .2s;
     text-decoration: none;
-    margin-left: 20px;
     display: flex;
     align-items: center;
 }
@@ -65,11 +49,23 @@ margin: auto;
     margin-top: -5px;
     box-shadow: 0px 5px 4px -1px black;  
 }
-@media (min-width:320px) and (max-width:599px){
+  @media (min-width:320px) and (max-width:599px){
+    .block-header{
+        width: 100%;
+    }
+    .header-p{
+        font-size: 14px;
+        margin-left: 5px;
+        color: black;
+        font-weight: 600;
+    }
+    .container-nav{
+        margin-right: 10px;
+        font-size: 12px;
+    }
     .lien-nav{
         font-size: 12px;
-        margin-left: 5px;
         font-weight: 600;
         color: black;
     }
-  }
+}

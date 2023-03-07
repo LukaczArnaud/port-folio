@@ -1,3 +1,5 @@
+@import './variables.css';
+
 .container-footer{
   background-color: var(--background-color-slick);
   height: 150px;
@@ -5,26 +7,29 @@
   align-items: center;
   justify-content: end;
 }
-@media (min-width:320px) and (max-width:599px){
-  .container-footer{
-    justify-content: center;
-    }
-}
 .footer{
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  width: 388px;
   margin-right: 95px;
   height: 32px;
 }
-@media (min-width:320px) and (max-width:599px){
-  .footer{
-  justify-content: center;
-  margin-right: 0;
-  }
-}
 .icone-footer{
   margin-right: 10px;
+  margin-top: 4px;
 }
 .info-text{
   margin: 0;
+}
+@media (min-width:320px) and (max-width:599px){
+  .container-footer{
+    justify-content: center;
+    height: 80px;
+    }
+    .footer{
+      margin-right: 0;
+      }
+      .info-text{
+        font-size: 10px;
+      }
 }

@@ -1,3 +1,5 @@
+@import './variables.css';
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
@@ -92,9 +94,60 @@
     height: 80px;
     background-color: var(--background-cv-primary);
 }
-
-@media (min-width:320px) and (max-width:599px){
-    .text{
-font-size: 70px;
+@media (min-width:320px) and (max-width:800px){
+    .block-cv{
+       width: 100%; 
+    }
+    .title-texte1{
+        font-size: 16px;
+    }
+    .title-texte2{
+        font-size: 11px;
+    }
+    .cv-photo-id{
+        width: 60px;
+        height: 60px;
+    }
+    h2{
+        font-size: 13px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    p{
+        font-size: 9px;
+    }
+    .block-cv-descriptif{
+        width: 95%;
+    }
+    .descriptif-title{
+        font-size: 12px;
+    }
+    .descriptif-date{
+        width: 30%;
+    }
+    .descriptif-texte{
+        width: 70%;
+    }
+    .container-cv-com{
+        width: 35%;
+    }
+    .block-cv-com{
+        width: 94%;
+    }
+    .block-com{
+        margin-bottom: 20px;
+    }
+    .title-texte{
+        margin-top: 2px;
+    }
+    .container-cv-descriptif{
+        width: 70%;
+    }
+    .cv-descriptif{
+        margin-left: 5px;
+    }
+    .liste-texte{
+        font-size: 9px;
     }
   }  

@@ -4,7 +4,6 @@ body {
 }
 *{
   font-family: 'Open Sans', sans-serif;
-
 }
 .home-container{
   display: flex;
@@ -22,12 +21,6 @@ body {
   box-shadow: 0px 1px 12px 2px black;
   border-radius: 20px;
 }
-@media (min-width:320px) and (max-width:599px){
-  .block-home{
-      width: 95%;
-      box-shadow: none;
-  }
-}
 .titre-formation{
     text-align: center;
 } 
@@ -36,7 +29,11 @@ body {
   margin: 0 auto;
 }
 @media (min-width:320px) and (max-width:599px){
+  .block-home{
+      width: 95%;
+      box-shadow: none;
+  }
   .slider{
-      width: 80%;
+    width: 80%;
   }
 }
