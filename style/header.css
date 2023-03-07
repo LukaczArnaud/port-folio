@@ -49,7 +49,6 @@ margin: auto;
     }
   }
 .lien-nav {
-    top: 6px;
     background: var(--primary-color);
     color: var(--primary-color-texte);
     padding: 4px 15px;
