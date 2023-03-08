@@ -22,13 +22,11 @@
 .card-title {
   font-size: 18px;
   text-align: center;
-  margin-top: 15px;
+margin: 10px 0;
 }
 .block-lien {
     display: flex;
     justify-content: space-around;
-    height: 21px;
-    margin-top: 15px;
   }
 .icone-lien {
     font-size: 18px;
@@ -36,16 +34,18 @@
 .texte-lien{
   margin: 0;
   margin-left: 8px;
-  font-size: 14px;
 }
-@media (min-width:320px) and (max-width:599px){
+@media (min-width:330px) and (max-width:599px){
   .card-title{
-      font-size: 11px;
+      font-size: 12px;
     }
     .texte-lien{
-      font-size: 9px;
+      font-size: 10px;
     }
     .container-card{
       height: 320px;
+    }
+    .icone-lien {
+      font-size: 15px;
     }
 }

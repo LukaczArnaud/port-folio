@@ -19,10 +19,6 @@ body {
   background: var(--secondary-background);
   box-shadow: 0px 0px 12px 1px black;
   border-radius: 20px;
-  /* background-image:url(../assets/fond.jpg);
-  background-repeat:no-repeat;
-  background-position: 50% 50%;
-  background-size: 100%; */
 }
 .titre-formation{
     text-align: center;
@@ -32,7 +28,7 @@ body {
   width: 90%;
   margin: 0 auto;
 }
-@media (min-width:320px) and (max-width:599px){
+@media (min-width:330px) and (max-width:599px){
   .block-home{
       width: 95%;
       box-shadow: none;

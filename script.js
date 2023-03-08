@@ -2,7 +2,7 @@ if (window.matchMedia("(min-width: 1000px)").matches) {
   $('.slider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
   });
 } else {

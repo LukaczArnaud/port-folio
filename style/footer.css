@@ -11,25 +11,28 @@
   justify-content: space-between;
   width: 388px;
   margin-right: 95px;
-  height: 32px;
+  height: 30px;
 }
 .icone-footer{
-  margin-right: 10px;
+  margin-right: 4px;
   margin-top: 4px;
 }
 .info-text{
   margin: 0;
 }
-@media (min-width:320px) and (max-width:599px){
+@media (min-width:330px) and (max-width:599px){
   .container-footer{
     justify-content: center;
     height: 80px;
     }
     .footer{
       margin-right: 0;
-      width: 290px;
+      width: auto;
       }
       .info-text{
-        font-size: 10px;
+        font-size: 12px;
+      }
+      .icone-footer{
+        margin-top: 0;
       }
 }
