@@ -32,6 +32,12 @@
     width: 155px;
     justify-content: space-between;
 }
+.nav-texte{
+    margin: 0;
+    padding: 5px 18px;
+    display: flex;
+    align-items: center;
+}
 .lien-nav {
     color: var(--primary-color-texte);
     padding: 5px 18px;
@@ -41,6 +47,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 .lien-nav:hover {
     background: var(--secondary-background);
