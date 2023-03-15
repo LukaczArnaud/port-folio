@@ -15,7 +15,6 @@
     margin-bottom: 45px;
 }
 .block-title-texte{
-    color: var(--primary-color-texte);
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -52,7 +51,7 @@
 }
 .block-com{
     margin-bottom: 20px;
-    color: var(--secondary-color-texte);
+    color: var(--primary-color-texte);
 }
 .title-com{
     margin: 0;

@@ -26,7 +26,7 @@ img{
 }
 .titre-formation{
     text-align: center;
-    color: var(--secondary-color-texte);
+    color: var(--primary-color-texte);
 } 
 .slider {
   width: 90%;
