@@ -60,6 +60,9 @@
 .title-texte{
     margin: 0;
     font-size: 12px;
+    text-decoration: none;
+    color: var(--primary-color-texte);
+
 }
 .img-qrcode{
     width: 102px;
